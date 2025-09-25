@@ -14,9 +14,9 @@ public class Exo1 {
 
         if ( nombre % 2 == 0) {
             System.out.println(nombre + " est pair");
-        } 
-        System.out.println(nombre + " est impair");
-       
+        } else {
+            System.out.println(nombre + " est impair");
+        }
     }
 
 }
