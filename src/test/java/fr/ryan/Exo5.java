@@ -8,7 +8,7 @@ public class Exo5 {
         Scanner clavier = new Scanner(System.in);
 
         // récupérer le nombre 
-        System.out.print("Entrer un nom ");
+        System.out.print("Entrez un nom ");
         String nom = clavier.next();
 
         clavier.close();
