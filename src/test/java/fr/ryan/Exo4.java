@@ -8,16 +8,23 @@ public class Exo4 {
 
         // récupérer le nombre 
         System.out.print("Quelle  couleur souhaitez-vous ? ");
-        String couleur = clavier.next();
+        String lettres = clavier.next();
 
         clavier.close();
+        String lettre = lettres.toUpperCase();
 
-        if () {
-            
-        } else if {
-            
-        } else {
-            
+        if (lettre.length() == 1) {
+
+            if (lettre.equals("R")) {
+                System.out.println("Vous avez choisi le Rouge.");
+            } else if (lettre.equals("B")) {
+                System.out.println("Vous avez choisi le bleu.");
+            }else if (lettre.equals("V")) {
+                System.out.println("Vous avez choisi le vert.");
+            } else {
+                System.out.println("Connais pas");
+            }
+
         }
     }
 
