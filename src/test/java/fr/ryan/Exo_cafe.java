@@ -2,7 +2,7 @@ package fr.ryan;
 
 import java.util.Scanner;
 
-public class Main {
+public class Exo_cafe {
     public static void main(String[] args) {
         Scanner clavier = new Scanner(System.in);
         System.out.println("Bonjour ! Je suis l'assistant de la machine à café. Dites-moi les pièces jaunes dont vous disposez :\n");
@@ -18,7 +18,7 @@ public class Main {
         int nb50Cents = clavier.nextInt();
 
 // On choisit de compter en centimes, ça permet de travailler avec des entiers uniquement
-        int total = nb1Cent * 1 + nb5Cents * 5 + nb10Cents * 10 + nb20Cents * 20 + nb50Cents * 50;
+        int total = nb1Cent + nb5Cents * 5 + nb10Cents * 10 + nb20Cents * 20 + nb50Cents * 50;
         int unEuro = 100;
         if (total < unEuro) {
             int manque = unEuro - total;
