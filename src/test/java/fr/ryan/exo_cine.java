@@ -7,9 +7,9 @@ public class exo_cine {
         Boolean accompgneeAdulte = false;
 
         if (!personnesInterdites && (agePersonne >= 14 || accompgneeAdulte)) {
-            System.out.println("Enrée autorisée");
+            System.out.println("Entrée autorisée");
         } else {
-            System.out.println("Enrée refusée");
+            System.out.println("Entrée refusée");
         }
 
     }
