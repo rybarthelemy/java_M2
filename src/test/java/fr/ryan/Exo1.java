@@ -6,7 +6,7 @@ public class Exo1 {
     public static void main(String[] args) {
         Scanner clavier = new Scanner(System.in);
 
-        // récupérer le nombre 
+        // récupérer le nombre
         System.out.print("Entrez un nombre ");
         int nombre = clavier.nextInt();
 

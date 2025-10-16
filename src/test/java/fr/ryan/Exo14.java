@@ -1,6 +1,6 @@
 package fr.ryan;
 
-public class Exo13 {
+public class Exo14 {
     public static void main(String[] args) {
         String texte = "Éric notre valet alla te laver ton ciré";
 
@@ -8,7 +8,7 @@ public class Exo13 {
         String minuscule = texte.toLowerCase();
 
         // Suppression des espaces et la ponctuaction
-        String texteAJour = minuscule.replace("[^a-zà-ÿ]", "");
+        String texteAJour = minuscule.replaceAll("[^a-zà-ÿ]", "");
 
         // Inverser la chaine
         String inverse = new StringBuilder(texteAJour).reverse().toString();
@@ -21,3 +21,8 @@ public class Exo13 {
     }
 
 }
+// La méthode replace() remplace une suite exacte de caractères par une autre.
+//Elle ne comprend pas les expressions régulières (regex)
+
+//La méthode replaceAll() remplace tous les caractères qui correspondent à une expression régulière (regex) par une autre chaîne.
+//Elle permet donc d’enlever ou de remplacer plusieurs types de caractères à la fois.
